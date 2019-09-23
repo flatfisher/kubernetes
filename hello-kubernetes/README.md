@@ -20,4 +20,6 @@ $ kubectl create deployment hello-node --image=gcr.io/google-samples/hello-app:1
 $ kubectl get deployments
 
 $ kubectl get pods
+
+$ kubectl get events
 ```
