@@ -3,3 +3,9 @@
 ```
 $ docker build -t hello-node:1.0 .
 ```
+
+## docker run from gcr's sample
+
+```
+$ docker container run -p 9000:8080 gcr.io/google-samples/hello-app:1.0
+```
