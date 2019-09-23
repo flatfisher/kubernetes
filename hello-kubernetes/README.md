@@ -16,4 +16,6 @@ $ curl http://localhost:9000/
 
 ```
 $ kubectl create deployment hello-node --image=gcr.io/google-samples/hello-app:1.0
+
+$ kubectl get deployments
 ```
