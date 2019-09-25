@@ -7,6 +7,7 @@
 
 ```
 $ kubectl get nodes
+$ kubectl get pods
 ```
 
 ### kubectx
