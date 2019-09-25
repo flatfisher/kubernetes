@@ -1,8 +1,16 @@
 # Kubernetes
 試したサンプルとかを置いとくリポジトリ
 
-## kubectl
+## Tools
+
+### kubectl
 
 ```
 $ kubectl get nodes
+```
+
+### kubectx
+
+```
+
 ```
