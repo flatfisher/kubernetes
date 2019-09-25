@@ -14,3 +14,8 @@ $ kubectl get nodes
 ```
 
 ```
+
+### stern
+
+```
+```
