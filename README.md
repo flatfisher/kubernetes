@@ -37,6 +37,17 @@ $ kubectl get deployments,replicasets,pods,service --all-namespaces -o wide --se
 
 //After Running
 $ kubectl proxy
-$
+
 $ http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/
+
+//Delete
+kubectl get secret,sa,role,rolebinding,services,deployments --namespace=kube-system | grep dashboard
+
+kubectl delete deployment kubernetes-dashboard --namespace=kube-system
+kubectl delete service kubernetes-dashboard  --namespace=kube-system
+kubectl delete role kubernetes-dashboard-minimal --namespace=kube-system
+kubectl delete rolebinding kubernetes-dashboard-minimal --namespace=kube-system
+kubectl delete sa kubernetes-dashboard --namespace=kube-system
+kubectl delete secret kubernetes-dashboard-certs --namespace=kube-system
+kubectl delete secret kubernetes-dashboard-key-holder --namespace=kube-system
 ```
