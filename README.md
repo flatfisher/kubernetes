@@ -16,10 +16,11 @@ $ kubectl describe pods ${POD_NAME}
 ### kubectx
 
 ```
-
+$ kubectx
 ```
 
 ### stern
 
 ```
+$ stern ${POD_NAME}
 ```
