@@ -11,6 +11,8 @@ $ kubectl get pods
 
 $ kubectl apply -f pod.yaml
 $ kubectl describe pods ${POD_NAME}
+
+$ kubectl delete -f manifests/pod.yaml
 ```
 
 ### kubectx
