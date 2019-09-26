@@ -13,6 +13,8 @@ $ kubectl apply -f pod.yaml
 $ kubectl describe pods ${POD_NAME}
 
 $ kubectl delete -f manifests/pod.yaml
+
+$ kubectl port-forward introduction-web 8080:80
 ```
 
 ### kubectx
