@@ -15,6 +15,8 @@ $ kubectl describe pods ${POD_NAME}
 $ kubectl delete -f manifests/pod.yaml
 
 $ kubectl port-forward introduction-web 8080:80
+
+$ kubectl exec -it intro-deploy-xxxxx -- bin/bash
 ```
 
 ### kubectx
