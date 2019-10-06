@@ -1,5 +1,5 @@
 # Kubernetes
-試したサンプルとかを置いとくリポジトリ
+Kubernetesで試したサンプルとかを置いとくリポジトリ
 
 ## Tools
 
